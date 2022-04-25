@@ -3,8 +3,6 @@ Making Connecticut hospitals' files readable and comparable.
 
 | Hospital      | File location |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
 | Backus Hospital      | Text        |
 | Central Conn Bradley Memorial Campus      | Text        |
 | Central Conn New Britain Campus      | Text        |
