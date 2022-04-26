@@ -25,6 +25,6 @@ Anyone interested in this endeavor will quickly find the files come in ranging f
 
 Hospitals were required to disclose various prices as a part of the federal rule. For this analysis, we focused on prices attached <a href="https://www.cms.gov/Medicare/Fraud-and-Abuse/PhysicianSelfReferral">to CPT and HCPCS codes,</a> because this data had the greatest amount of overlap between hospitals and health systems in Connecticut, making some comparisons possible.
 
-The final data product, which you can explore for yourself in the /data repository, contains 1.5 million records. We are only including codes if they are shared by at least two hospitals, because our primary focus was on comparing rates.
+The final data product, which you can explore for yourself in the /data repository, contains 630,000 records. We are only including codes if they are shared by at least two hospitals, because our primary focus was on comparing rates.
 
 Descriptions of what these codes mean come from the American Medical Association. 
