@@ -1,36 +1,24 @@
 # Connecticut hospitals' price transparency
 Making Connecticut hospitals' files readable and comparable.
 
-| Hospital      | File location |
-| ----------- | ----------- |
-| Backus Hospital      | Text        |
-| Central Conn Bradley Memorial Campus      | Text        |
-| Central Conn New Britain Campus      | Text        |
-| Charlotte Hungerford      | Text        |
-| Hartford Hospital      | Text        |
-| Midstate Medical Center      | Text        |
-| St. Vincent's Medical Center      | Text        |
-| Windham Hospital      | Text        |
-| Bristol Health      | Text        |
-| Connecticut Children's      | Text        |
-| Day Kimball Hospital      | Text        |
-| Griffin Hospital      | Text        |
-| Middlesex Health      | Text        |
-| Stamford Health      | Text        |
-| Danbury Hospital      | Text        |
-| Danbury Hospital New Milford Campus      | Text        |
-| Norwalk Hospital      | Text        |
-| Sharon Hospital      | Text        |
-| Manchester Memorial Hospital      | Text        |
-| Rockville General Hospital      | Text        |
-| Waterbury Hospital      | Text        |
-| Johnson Memorial Hospital      | Text        |
-| Saint Francis Hospital and Medical Center      | Text        |
-| Saint Mary's Hospital      | Text        |
-| UCONN John Dempsey Hospital      | Text        |
-| Bridgeport Hospital      | Text        |
-| Bridgeport Hospital Milford Campus      | Text        |
-| Greenwich Hospital      | Text        |
-| Lawrence + Memorial      | Text        |
-| Yale New Haven Hospital      | Text        |
-| Yale New Haven Saint Raphael Campus      | Text        |
+For this project, all data was checked for updates during late March and early April. Here is where we sourced that data:
+
+| Health system                      | Hospitals                                                                                                                                                                                      | File(s) location                                                                                                                                                                                                                               |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Eastern Connecticut Health Network | Manchester Memorial Hospital, Rockville General Hospital                                                                                                                                       | [https://www.echn.org/about-echn/pricing-transparency/](https://www.echn.org/about-echn/pricing-transparency/)                                                                                                                                 |
+|                                    | Waterbury Hospital                                                                                                                                                                             | [https://www.waterburyhospital.org/patients-visitors/notices-to-patients/hospital-price-transparency/](https://www.waterburyhospital.org/patients-visitors/notices-to-patients/hospital-price-transparency/)                                   |
+| Hartford Healthcare                | Backus Hospital, Charlotte Hungerford Hospital, Hartford Hospital, Hospital of Central Connecticut, MidState Medical Center, Natchaug Hospital, St. Vincent's Medical Center, Windham Hospital | [https://hartfordhealthcare.org/patients-visitors/patients/price-transparency](https://hartfordhealthcare.org/patients-visitors/patients/price-transparency)                                                                                   |
+|                                    | Bristol Health                                                                                                                                                                                 | [https://www.bristolhealth.org/Why-Bristol-Health/Pricing-and-Financial-Assistance/Pricing-Transparency](https://www.bristolhealth.org/Why-Bristol-Health/Pricing-and-Financial-Assistance/Pricing-Transparency)                               |
+|                                    | Connecticut Children's                                                                                                                                                                         | [https://www.connecticutchildrens.org/billing-and-finances/pricing-transparency-and-estimates/](https://www.connecticutchildrens.org/billing-and-finances/pricing-transparency-and-estimates/)                                                 |
+|                                    | Day Kimball Hospital                                                                                                                                                                           | Click "Create an Estimate," >> Agree >> "Click here to download all standard charges for this facility" https://www.daykimball.org/resources/billing-and-insurance/day-kimball-hospital-estimates/                                             |
+|                                    | Griffin Hospital                                                                                                                                                                               | [https://www.griffinhealth.org/griffin-hospital/billing-insurance/hospital-pricing-chargemaster](https://www.griffinhealth.org/griffin-hospital/billing-insurance/hospital-pricing-chargemaster)                                               |
+|                                    | Middlesex Health                                                                                                                                                                               | [https://middlesexhealth.org/about-middlesex-health/quality-and-compliance/compliance/price-transparency](https://middlesexhealth.org/about-middlesex-health/quality-and-compliance/compliance/price-transparency)                             |
+|                                    | Stamford Health                                                                                                                                                                                | [https://www.stamfordhealth.org/patients-visitors/hospital-charges/](https://www.stamfordhealth.org/patients-visitors/hospital-charges/)                                                                                                       |
+| Nuvance Health                     | Danbury Hospital, Northern Dutchess Hospital, Norwalk Hospital, Putnam Hospital, Vassar Brothers Medical Center, Sharon Hospital                                                               | [https://www.nuvancehealth.org/patients-and-visitors/billing-and-insurance/price-transparency-and-cost-estimator-tools](https://www.nuvancehealth.org/patients-and-visitors/billing-and-insurance/price-transparency-and-cost-estimator-tools) |
+| Yale New Haven Health System       | Bridgeport Hospital                                                                                                                                                                            | [https://www.bridgeporthospital.org/patients-visitors/billing-insurance/Pricing](https://www.bridgeporthospital.org/patients-visitors/billing-insurance/Pricing)                                                                               |
+| Yale New Haven Health System       | Lawrence + Memorial Hospital                                                                                                                                                                   | [https://www.lmhospital.org/patients-visitors/patients/billing-insurance/Pricing](https://www.lmhospital.org/patients-visitors/patients/billing-insurance/Pricing)                                                                             |
+| Yale New Haven Health System       | Greenwich Hospital                                                                                                                                                                             | [https://www.greenwichhospital.org/patients-visitors/billing-insurance/Pricing](https://www.greenwichhospital.org/patients-visitors/billing-insurance/Pricing)                                                                                 |
+| Yale New Haven Health System       | Yale New Haven Hospital                                                                                                                                                                        | [https://www.ynhh.org/patients-visitors/billing-insurance/Pricing](https://www.ynhh.org/patients-visitors/billing-insurance/Pricing)                                                                                                           |
+| Trinity Health of New England      | Saint Francis Hospital and Medical Center, Johnson Memorial Hospital, Saint Mary's Hospital                                                                                                    | [https://www.trinityhealthofne.org/for-patients/billing-and-financial-resources/price-estimates-lists](https://www.trinityhealthofne.org/for-patients/billing-and-financial-resources/price-estimates-lists)                                   |
+
+Hospitals were required to disclose various prices as a part of the federal rule. For this analysis, we focused on prices attached <a href="https://www.cms.gov/Medicare/Fraud-and-Abuse/PhysicianSelfReferral">to CPT and HCPCS codes,</a> because this data had the greatest amount of overlap between hospitals and health systems in Connecticut, making some comparisons possible.
