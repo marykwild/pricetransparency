@@ -1,0 +1,3 @@
+Here, you'll find a about 630,000 rows of data showing the rates negotiated between Connecticut hospitals and various insurance plans. You will notice a minimum, median and maximum rate is shown. 
+That is because some health systems included various procedure or revenue codes that further specify how much the insurer is willing to pay in diffrent circumstances, or in different areas of the hospital. Hospitals were not fully transparent about what these codes correspond to. 
+In order to manage this issue, we're providing the numbers indicating the statistical spread of rates for each insurance plan, billing code and hospital. 
