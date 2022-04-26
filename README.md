@@ -1,5 +1,5 @@
 # Connecticut hospitals' price transparency
-This effort is focused on making Connecticut hospitals' price transparency files — required by CMS beginning in Jan. 2021 — readable and comparable. We specifically focused on the negotiated rates that hospitals have with various health insurance plans. The data sources are scattered across every hospital or health system's website, and can be hard to track down. 
+This effort is focused on making Connecticut hospitals' price transparency files — required by the Centers for Medicare & Medicaid Services beginning in Jan. 2021 — readable and comparable. We specifically focused on the negotiated rates that hospitals have with various health insurance plans. The data sources are scattered across every hospital or health system's website, and can be hard to track down. 
 
 For this project, all data was checked for updates during late March and early April. Here is where we sourced that data:
 
