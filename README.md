@@ -1,5 +1,5 @@
 # Connecticut hospitals' price transparency
-Making Connecticut hospitals' files readable and comparable.
+This effort is focused on making Connecticut hospitals' price transparency files — required by CMS beginning in Jan. 2021 — readable and comparable. We specifically focused on the negotiated rates that hospitals have with various health insurance plans. The data sources are scattered across every hospital or health system's website, and can be hard to track down. 
 
 For this project, all data was checked for updates during late March and early April. Here is where we sourced that data:
 
@@ -22,3 +22,7 @@ For this project, all data was checked for updates during late March and early A
 | Trinity Health of New England      | Saint Francis Hospital and Medical Center, Johnson Memorial Hospital, Saint Mary's Hospital                                                                                                    | [https://www.trinityhealthofne.org/for-patients/billing-and-financial-resources/price-estimates-lists](https://www.trinityhealthofne.org/for-patients/billing-and-financial-resources/price-estimates-lists)                                   |
 
 Hospitals were required to disclose various prices as a part of the federal rule. For this analysis, we focused on prices attached <a href="https://www.cms.gov/Medicare/Fraud-and-Abuse/PhysicianSelfReferral">to CPT and HCPCS codes,</a> because this data had the greatest amount of overlap between hospitals and health systems in Connecticut, making some comparisons possible.
+
+The final data product, which you can explore for yourself in the /data repository, contains 1.5 million records. We are only including codes if they are shared by at least two hospitals, because our primary focus was on comparing rates.
+
+Descriptions of what these codes mean come from the American Medical Association. 
