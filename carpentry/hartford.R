@@ -142,8 +142,6 @@ inp_chk <- backus %>%
   mutate(chargediff = maxcharge-mincharge) %>% 
   filter(chargediff!=0)
 
-#For the sake of this project, we're going to disregard them for now and see how much it affects the maternity codes.
-
 backus$Hospital <- "Backus Hospital"
 centralconn$Hospital <- "The Hospital of Central Connecticut"
 chungerford$Hospital <- "Charlotte Hungerford Hospital"
